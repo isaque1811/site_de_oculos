@@ -1,0 +1,184 @@
+@import url("global.css");
+
+.pesquisa form{
+margin-left: 90px;
+    border-radius: 90px;
+    background-color: #fff;
+    height: 40px;
+    margin-top: 10px;
+}
+
+
+.pesquisa:hover .entrada {
+    
+    padding-left: 2em;
+    padding-right: 1em;
+    width: 350px;
+}
+.entrada {
+    outline: 0;
+    font-size: 1.2em;
+    background-color: rgb(224, 224, 224);
+    width: 350px;
+    padding: px;
+    border: none;
+    background: none;
+    transition: .45s;
+}
+.butao {
+   border-radius: 50%;
+   width: 45px;
+   height: 45px;   background-color: rgb(31, 31, 31);
+   border: none;
+   cursor: pointer;
+   transition: .3s;
+ 
+}
+.butao:active  {
+    transform: scale(.85);
+
+}
+.pesquisa-icone {
+    margin: auto;
+    color: #fff;
+}
+  
+ 
+main {
+    padding: 1rem 2rem;
+
+}
+form{
+    margin-left: 450px;
+  border-radius: 80px;
+}
+.footer-top{
+   margin-bottom:20px;
+
+}
+
+h1 {
+    color: var(--dark-30);
+    font-size: 3.2rem;
+    text-align: center;
+    margin-bottom: 1.6rem;
+}
+
+form .input-area {
+    color: var(--dark-20);
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+
+
+.input-area label {
+    display: block;
+    margin-bottom: .5rem;
+}
+
+.input-area input {
+    width: 30rem;
+    color: var(--dark-30);
+    font-size: 1.6rem;
+    padding: .5rem 1rem;
+    border: .1rem solid var(--dark-20);
+    outline: none;
+    border-radius: .5rem;
+}
+
+.input-area input[type=date], .input-area input[name="cpf"], .input-area input[name="telefone"] {
+    width: 20rem;
+}
+
+
+.input-area#input-password {
+    width: max-content;
+    position: relative;
+}
+
+.input-area#input-password i.bi {
+    font-size: 1.8rem;
+    color: var(--dark-30);
+    position: absolute;
+    top: 3rem;
+    right: 1.8rem;
+
+    cursor: pointer;
+}
+
+
+form button {
+    display: block;
+    width: 25rem;
+    background-color: var(--dark-10);
+    color: var(--blue);
+    font-weight: bold;
+    font-size: 1.6rem;
+    border: 0;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 5rem auto 0;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    margin-left: 40px;
+}
+
+form button:hover {
+    background-color: var(--blue);
+    color: var(--light-100);
+}
+
+
+/* Responsividade */
+@media (max-width: 426px) {
+
+   main {
+    padding: 1rem;
+   }
+
+}
+header{
+    --blue: #9c9313;
+}
+footer{
+    --blue: #9c9313;
+}
+body{
+    background-color: rgb(31, 31, 31);
+}
+.lo{
+    
+    color: rgb(31, 31, 31);
+    background-color: rgb(31, 31, 31);
+}
+button a{
+color: rgb(192, 192, 192);
+}*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+  
+ 
+
+
+.navigation ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.navigation ul li a{
+    color: #fff;
+    font-size: 1.2rem;
+    transition: all .1s ease;
+}
+
+
+
+
+
